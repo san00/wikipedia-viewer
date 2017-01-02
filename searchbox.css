@@ -1,0 +1,27 @@
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 4em;
+}
+
+#searchbox {
+  background: #D5D5D5;
+  border: 0px solid #dbdbdb;
+  height: 4em;
+  width: 20em;
+}
+
+#searchbutton {
+  border: 2px solid #207cca;
+  background-color: #207cca;
+  color: #fafafa;
+  height: 4em;
+}
+
+#searchbutton:hover {
+  background-color: #fafafa;
+  color: #207cca;
+}
