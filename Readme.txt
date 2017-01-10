@@ -1,3 +1,4 @@
-The Wikipedia viewer links to the wikipedia api and allows users to search through all Wikipedia entries. 
+The Wikipedia viewer is a search engine that links to the wikipedia api and allows users to search through all Wikipedia entries. 
 
-Intermediate FCC project - Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/
+Coded from scratch as part of an Intermediate FCC project to build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/
+
