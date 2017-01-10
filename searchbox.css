@@ -1,10 +1,13 @@
 .flexcontainer {
   display: flex;
+  align-self: center;
   justify-content: center;
+  align-items: center;
 }
 
-.box {
-  margin-top: 4em;
+form {
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 
 #searchbox {
@@ -12,6 +15,7 @@
   border: 0px solid #dbdbdb;
   height: 4em;
   width: 20em;
+  align-self: center;
 }
 
 #searchbutton {
@@ -19,9 +23,29 @@
   background-color: #207cca;
   color: #fafafa;
   height: 4em;
+  align-self: center;
 }
 
 #searchbutton:hover {
+  background-color: #fafafa;
+  color: #207cca;
+}
+
+#searchresult {
+  max-width: 70%;
+  margin: auto;
+}
+
+#randombutton {
+  border: 2px solid #207cca;
+  background-color: #207cca;
+  color: #fafafa;
+  height: 2em;
+  max-width: auto;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+#randombutton:hover {
   background-color: #fafafa;
   color: #207cca;
 }

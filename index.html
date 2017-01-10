@@ -1,21 +1,27 @@
-
 <!DOCTYPE html>
 
 <html>
+
 <head>
-<script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-</script>
+    <link rel="stylesheet" type="text/css" href="searchbox.css" />
+    <script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="wiki.js"></script>
 </head>
+
 <body>
-  <div class="flexcontainer">
-    <div class="box">
-      <form>
-        <input id="searchbox" type="text" placeholder="Search for it..." required>
-        <input id="searchbutton" type="button" value="Search" </form>
+    <div class="flexcontainer">
+        <form>
+            <input id="searchbox" type="text" placeholder="Search for it..." required>
+            <input id="searchbutton" type="button" value="Search"
+        </form>
     </div>
-    <div>
-      <p></p><span id="searchresult"></span>
+    <div class="flexcontainer">
+        <a href="https://en.wikipedia.org/wiki/Special:Random"><button id= "randombutton">
+   Feeling lucky? Click for a random wiki article</button>
+      </a>
     </div>
-  </div>
+    <div id="searchresult"></div>
 </body>
+
 </html>
