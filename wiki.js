@@ -7,13 +7,18 @@ function search() {
   $.ajax({
     url: apiResult,
     dataType: "jsonp",
-    success: function(info) {
-      console.log(info)
+    success: function(info){
+      //loop to return search results & display them on page
+      for (var i = 0; i < info[1].length; i++){
+       $("#searchresult").append("<a href=" +info[3][i]+"><h2>" + info[1][i]
+       + "</h2>" + info[2][i] + "</a>");
+     }
     }
   })
 }
-//submit allows keypress and/or button click
-$("form").submit(function(e){
-e.preventDefault();
-search();
+//search using keypress or button click
+$("form").submit(function(press){
+  press.preventDefault();
+  search();
 });
+ $("form").on('click', search);
