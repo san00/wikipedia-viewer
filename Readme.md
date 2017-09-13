@@ -1,6 +1,6 @@
 
 # Wikipedia viewer
-A search engine that utilises the wikipedia APi, allowing users to search through Wikipedia entries. 
+A search engine utilising the wikipedia APi, allowing users to search through Wikipedia entries. 
 
 ### User story
 Search Wikipedia entries via a search box and see the resulting entries. Click a button to see a random Wikipedia entry.
