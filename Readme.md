@@ -1,3 +1,4 @@
+
 # Wikipedia viewer
 A search engine that utilises the wikipedia APi, allowing users to search through Wikipedia entries. 
 
@@ -8,4 +9,3 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 ### Technologies
 * JQuery
-
