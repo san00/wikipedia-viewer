@@ -1,5 +1,11 @@
-The Wikipedia viewer is a search engine that links to the wikipedia api and allows users to search through all Wikipedia entries. 
 
-FCC Intermediate front end project, coded from scratch.
+# Wikipedia viewer
+A search engine that utilises the wikipedia APi, allowing users to search through Wikipedia entries. 
+
+### User story
+Search Wikipedia entries via a search box and see the resulting entries. Click a button to see a random Wikipedia entry.
+
 Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/
 
+### Technologies
+* JQuery
